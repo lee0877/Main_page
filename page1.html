@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content="width=device-width">
+	<title>이정현의 포트폴리오입니다.</title>
+	
+	<!--<script>
+		alert('반갑습니다');
+	</script>-->
+<style>
+		*{
+			margin :0;
+			padding: 0;
+
+
+		}
+
+		header{
+
+			width: 100%;
+			height: 40px;
+			background-color: #333333;
+			color:#ffffff;
+			text-align: center;
+		}
+
+		header #header_content{
+			width: 100%;
+			padding-top: 8px;
+			padding-left: 35px;
+		/*margin: 0 auto;*/
+		float: left;
+		font-size: 13px;
+
+		}
+
+	
+		#main_box{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+
+		#main_box main{
+			width: 100%;
+			height: 500px;
+			/*float:left;*/
+			background-color: #000000;
+			color: #ffffff;
+			text-align: left;
+			padding-top :40px;
+			font-weight: bold;
+			padding-left: 15%;
+			padding-top: 20%;
+		}
+
+		#ma{
+			font-size: 53px;
+			/*text-align: left;*/
+
+		}
+
+			#main_box2{
+			width: 100%;
+			margin: 0 auto;
+
+		}
+
+
+		#main_box2 main{
+			width: 100%;
+			height: 800px;
+			/*float:left;*/
+			background-color: #ffffff;
+			color: #000000;
+			text-align: center;
+			padding-top :40px;
+			font-weight: bold;
+
+
+		}
+
+		#ma2{
+			font-size: 30px;
+			padding-left: 10%;
+		}
+
+
+
+
+		footer{
+			width: 100%;
+			height: 80px;
+			clear: both;
+			background-color: #cccccc;
+			color: #000000;
+			text-align: center;
+		}
+
+		footer #footer_content{
+			width: 100%;
+			padding-top: 8px;
+			padding-left: 35px;
+
+			float: left;
+			font-size: 20px;
+		
+		}
+
+		a:link{
+			color:#0000ff;
+			text-decoration: none;
+		}
+
+		a:visited{
+			color: #ffffff;
+		}
+
+		a:hover{
+			color: #fbdbf2;
+			font-weight: bold;
+			text-decoration:none;
+		}
+
+		a:active{
+			color: #00ffff;
+		}
+
+		ul{
+			list-style-type: none;
+		}
+
+		#txtcolor{
+			color: #ffff00;
+		}
+
+		#txtblue{
+			color:#0000ff;
+		}
+
+		#txtorg{
+			color:#ff7f00;
+		}
+
+		#txtgreen{
+			color: #81c147;
+		}
+
+		#txtred{
+			color:#FF0000;
+		}
+
+		#txtblue2{
+			color:#6699ff;
+		}
+
+		#txtred2{
+			color: #ff3333;
+		}
+
+		#txtorg2{
+			color:#4d2f40;
+		}
+
+	
+
+		.clear{
+			clear:both;
+		}
+
+		.image{
+			float: left;
+			padding-top: 20px;
+			padding-left: 30px;
+
+		}
+
+		/*.logo{
+			float: left;
+
+		}*/
+
+		.intro{
+			float: left;
+			width: 1000px;
+			margin-top: 110px;
+			margin-left: 30px;
+			font-size: 20px;
+			text-align: left;
+			line-height: 300%;
+		}
+
+		@keyframes cursor{
+		  50%{ border-color: transparent; }
+		}
+		 
+		.text{
+		  display: table-cell;
+		  vertical-align: middle;
+		  font-size: 55px;
+		  height: 32px;
+		  border-right: .05em solid black;
+		  animation: cursor 0.5s ease infinite;
+		}
+
+		
+		.box{
+			border:solid 5px #ffd400;
+			border-radius: 3%;
+			overflow: hidden;
+			box-shadow: 6px 6px 5px #0067a3;
+		}
+
+		.box img{
+			display: block;
+		}	
+
+		#box_who_am_i{
+			width:70%;
+			height: 600px;
+			border-radius: 20px;
+			background-color:#4aa8d8;
+			border:solid: 1px #000000;
+			text-align: center;
+			margin-top:70px;
+			margin-left: 10%;
+			box-shadow: 6px 6px 5px #aaaaaa;
+
+		}
+
+		#who_am_i_font{
+			font-family: "맑은 고딕";
+			font-weight: bold;
+			font-size: 50px;
+			padding-top: 10px;
+			color:#ffffff;
+		}
+
+		#who_am_i_font2{
+			font-family: "맑은 고딕";
+			font-size: 20px;
+			color: #ffffff;
+			padding-top: 150px;
+			padding-left: 400px;
+			width: 390px;
+		}
+
+			
+		#skill_box{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+
+		#skill_box main{
+			width: 100%;
+			height: 300px;
+			/*float:left;*/
+			background-color: #000000;
+			color: #ffffff;
+			text-align: left;
+			
+			font-weight: bold;
+			padding-left: 15%;
+			padding-top: 8%;
+			padding-bottom: 20%;
+		}
+
+		#skill_font{
+			font-size: 53px;
+			/*text-align: left;*/
+
+		}
+
+		#textsize{
+			font-size: 35px;
+
+			}
+
+
+
+		#contact_box{
+			width: 100%;
+			margin: 0 auto;
+
+		}
+
+
+		#contact_box2 main{
+			width: 100%;
+			height: 300px;
+			/*float:left;*/
+			background-color: #ffffff;
+			color: #000000;
+			text-align: left;
+			
+			font-weight: bold;
+			padding-left: 15%;
+			padding-top: 8%;
+			padding-bottom: 20%;
+
+
+		}
+
+		#contact{
+			font-size: 53px;
+			
+		}
+
+		#contact_font{
+			font-size: 35px;
+			padding-top: 135px;
+			padding-left: 300px;
+		}
+
+
+
+
+
+	</style>
+		
+		
+</head>
+<body>
+<header>
+	
+	<div id ="header_content">
+		<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html"><img src="img/or.png" width ="20" height="20"></a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+		<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html">Home</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html">Name</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html">Age</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<a href="file:///C:/Users/fkfkw/Desktop/html%EC%97%B0%EC%8A%B5%EC%9E%A5/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.html">Dream</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+</header>
+
+<section id = "main_box">
+	<!-- <aside>
+		좌측콘텐츠
+	</aside> -->
+	<div id = "ma"><main>
+		
+		<h1 class = "text"></h1>
+		<script>
+			const content = "안녕하세요! 저는 이정현입니다."
+			//const content = "front-end개발자를 꿈꾸고 있습니다."
+			const text = document.querySelector(".text")
+
+			let index = 0;
+			 
+			function typing(){
+			  text.textContent += content[index++]
+			  if(index > content.length){
+			    text.textContent = ""
+			    index = 0;
+			  }
+			}
+			setInterval(typing, 200)
+		</script>
+
+		<h6>_________________________________________________________</h6>
+
+			
+
+	<!--	<li><img src = "img/sss.png" width="100" height="100"></li>
+		<li><h2>저는 이정현입니다. </h2></li> -->
+		
+		
+	</main></div>
+</section>
+
+<section id = "main_box2">
+	<!-- <aside>
+		좌측콘텐츠
+	</aside> -->
+	<div id = "ma2"><main>
+		
+	<div id = "box_who_am_i">
+		<div id = "who_am_i_font">About me!</div>
+		<div class = "image"><img src = "img/me.jpg" width="250" height="450"></div>
+		<div id = "who_am_i_font2"><p>Front-end 개발자를 꿈꾸는 이정현입니다. 제가 만들고자 하는 UI는 단순하며 편리성을 지닌 모든이가 사용하기 쉬운 UI입니다.
+		특히 인터넷 소외 계층인 고령층도 쉽고 간편하게 사용할 수 있는 UI를 만들고자 합니다.
+		모든이가 제가 만든 UI안에서 평등하길 바랍니다.<p></div>
+	</div>
+		
+	</main></div>
+</section>
+
+<section id = "skill_box">
+	<!-- <aside>
+		좌측콘텐츠
+	</aside> -->
+	<div id = "skill_font"><main>
+		
+		<h3>Skill</h3><br>
+		<ul>
+		
+		<li><img src = "img/packman.png" width = "200" height="200">&nbsp;&nbsp;<img src = "img/logo2.png" width = "350" height="200"></li><br>
+		<li>Html, Css, JavaScript를 사용합니다.</li>
+		<!--<li><img src = "img/progr.png" width="400" height="300"></li>-->
+		</ul>
+		<h6>그 외! → 아두이노, 라즈베리파이, 파이썬, 자바등의 언어 사용 경험 ○</h6>
+		
+		
+	</main></div>
+</section>
+
+<section id = "contact_box2">
+	<!-- <aside>
+		좌측콘텐츠
+	</aside> -->
+	<div id = "contact"><main>
+		<h3>Contact</h3><br>
+		<div class = "image"><img src = "img/mail.png" width="200" height="200"></div>
+		<div id = "contact_font"> 연락처:010-0000-0000 <br> Mail:****@gmail.com </div>
+	<!--	<ul>
+		<li><img src = "img/mail.png" width = "200" height="200">&nbsp; 연락처:010-0000-0000<br> Mail:****1@gmail.com <br> </li><br>
+		<li>Html, Css, JavaScript를 사용합니다.</li>
+		<li><img src = "img/progr.png" width="400" height="300"></li>
+		</ul>-->
+		
+		
+		
+	</main></div>
+</section>
+
+
+
+<footer>
+	<div id = "footer_content">
+
+		thanks for visit
+	</div>
+</footer>
+</body>
+</html>
